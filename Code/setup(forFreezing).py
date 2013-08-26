@@ -11,10 +11,10 @@ if (sys.platform== "win32"):
 	base = "win32GUI"
 	
 setup(
-	name ="viper41.py" , 
+	name ="viper42.py" , 
 	version = "0.1" , 
 	description = "test" , 
-	executables = [Executable("viper41.py",base=base)] 
+	executables = [Executable("viper42.py",base=base)] 
        )
 
 ##The command line: c:\python32\python.exe setup.py build
